@@ -1,4 +1,4 @@
-package com.dsmanioto.ChainOfRepository.bancario;
+package com.dsmanioto.ChainOfRepository.bancario.model;
 
 public class Conta {
 

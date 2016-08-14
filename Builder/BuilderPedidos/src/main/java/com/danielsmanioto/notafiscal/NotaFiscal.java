@@ -3,6 +3,11 @@ package com.danielsmanioto.notafiscal;
 import java.util.Calendar;
 import java.util.List;
 
+/**
+ * Representa uma nota fiscal
+ * @author daniel
+ *
+ */
 public class NotaFiscal {
 
 	private String razaoSocial;
@@ -12,7 +17,17 @@ public class NotaFiscal {
 	private double impostos;
 	public List<ItemNota> itens;
 	private String observacao;
-
+	
+	/**
+	 * Construtor com todos os campos necessários
+	 * @param razaoSocial
+	 * @param cnpj
+	 * @param dataEmissao
+	 * @param valorBruto
+	 * @param impostos
+	 * @param itens
+	 * @param observacao
+	 */
 	public NotaFiscal(String razaoSocial, String cnpj, Calendar dataEmissao, double valorBruto, double impostos,
 			List<ItemNota> itens, String observacao) {
 		this.razaoSocial = razaoSocial;

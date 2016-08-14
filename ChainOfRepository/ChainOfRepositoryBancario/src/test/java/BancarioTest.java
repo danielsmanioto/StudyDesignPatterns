@@ -3,13 +3,13 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.dsmanioto.ChainOfRepository.bancario.Conta;
-import com.dsmanioto.ChainOfRepository.bancario.Formato;
-import com.dsmanioto.ChainOfRepository.bancario.Requisicao;
-import com.dsmanioto.ChainOfRepository.bancario.Resposta;
-import com.dsmanioto.ChainOfRepository.bancario.RespostaEmCvs;
-import com.dsmanioto.ChainOfRepository.bancario.RespostaEmPorcento;
-import com.dsmanioto.ChainOfRepository.bancario.RespostaEmXml;
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.Formato;
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.Requisicao;
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.Resposta;
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.impl.RespostaEmCvs;
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.impl.RespostaEmPorcento;
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.impl.RespostaEmXml;
+import com.dsmanioto.ChainOfRepository.bancario.model.Conta;
 
 public class BancarioTest {
 

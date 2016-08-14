@@ -1,7 +1,7 @@
 # StudyDesignPatterns
-Projetos com exemplos simples praticos de design patterns separados cada um por projeto e padrão. 
+Projetos com exemplos simples e práticos de design patterns.
 
-Cada padrão de projeto esta separado em um diretório com um ou mais projetos. 
+Cada padrão de projeto está separado em um diretório com um ou mais projetos. 
 
 <b>Requisitos minimos:</b>
   <ul>

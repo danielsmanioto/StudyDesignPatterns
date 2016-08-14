@@ -1,4 +1,9 @@
-package com.dsmanioto.ChainOfRepository.bancario;
+package com.dsmanioto.ChainOfRepository.bancario.arquivos.impl;
+
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.Formato;
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.Requisicao;
+import com.dsmanioto.ChainOfRepository.bancario.arquivos.Resposta;
+import com.dsmanioto.ChainOfRepository.bancario.model.Conta;
 
 public class RespostaEmPorcento implements Resposta {
 
