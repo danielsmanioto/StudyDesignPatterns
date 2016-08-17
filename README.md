@@ -12,7 +12,7 @@ Cada padrão de projeto está separado em um diretório com um ou mais projetos.
 <b>Estrutura:</b>
   <ul>
     <li>Todo projeto está em uma pasta com o nome do padrão de projeto</li>
-    <li>Todos os projetos tem teste unitário(JUnit) para executar e testar os testes</li>
+    <li>Todos os projetos tem teste unitário(JUnit) para executar e testar</li>
   </ul>
   
 
