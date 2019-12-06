@@ -1,7 +1,7 @@
 package com.dsmanioto.proxy.image.image;
 
-public interface ImageApplication {
+public interface Image {
 
-	void display();
+    void display();
 
 }
