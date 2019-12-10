@@ -5,8 +5,8 @@ Cada padrão de projeto está separado em um diretório com um ou mais projetos.
 
 <b>Requisitos minimos:</b>
   <ul>
-    <li>JDK 1.8</li>
-    <li>Mavem</li>
+    <li>JDK 1.8 ou JDK 11</li>
+    <li>Maven e Gradle</li>
   </ul>
   
 <b>Estrutura:</b>
