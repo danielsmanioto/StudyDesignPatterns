@@ -1,4 +1,7 @@
-package com.dsmanioto.statewatch.statewatch.implementation;
+package com.dsmanioto.statewatch.statewatch;
+
+import com.dsmanioto.statewatch.statewatch.implementation.State;
+import com.dsmanioto.statewatch.statewatch.implementation.StopState;
 
 public class Stopwatch {
 	

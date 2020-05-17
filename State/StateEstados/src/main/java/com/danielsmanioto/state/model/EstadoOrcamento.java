@@ -4,12 +4,12 @@ import com.danielsmanioto.state.model.impl.Orcamento;
 
 public interface EstadoOrcamento {
 
-	public abstract void aplicaDescontoExtra(Orcamento orcamento);
+	void aplicaDescontoExtra(Orcamento orcamento);
 
-	public abstract void aprova(Orcamento orcamento);
+	void aprova(Orcamento orcamento);
 
-	public abstract void reprovar(Orcamento orcamento);
+	void reprovar(Orcamento orcamento);
 
-	public abstract void finaliza(Orcamento orcamento);
+	void finaliza(Orcamento orcamento);
 
 }

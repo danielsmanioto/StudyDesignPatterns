@@ -1,13 +1,12 @@
 package com.danielsmanioto.state.model;
 
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
-
 import com.danielsmanioto.state.model.impl.Aprovado;
 import com.danielsmanioto.state.model.impl.Finalizado;
 import com.danielsmanioto.state.model.impl.Orcamento;
 import com.danielsmanioto.state.model.impl.Reprovado;
+import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
 
 public class DescontoExtraTest {
 

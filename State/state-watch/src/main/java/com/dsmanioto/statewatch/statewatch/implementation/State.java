@@ -1,3 +1,7 @@
 package com.dsmanioto.statewatch.statewatch.implementation;
 
-public class State {}
+public interface State {
+	
+	void click();
+	
+}
