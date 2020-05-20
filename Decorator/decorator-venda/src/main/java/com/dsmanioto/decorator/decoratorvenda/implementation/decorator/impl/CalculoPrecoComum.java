@@ -1,5 +1,6 @@
-package com.dsmanioto.decorator.decoratorvenda.implementation.decorator;
+package com.dsmanioto.decorator.decoratorvenda.implementation.decorator.impl;
 
+import com.dsmanioto.decorator.decoratorvenda.implementation.decorator.CalculoPreco;
 import com.dsmanioto.decorator.decoratorvenda.implementation.model.Produto;
 
 import java.math.BigDecimal;
