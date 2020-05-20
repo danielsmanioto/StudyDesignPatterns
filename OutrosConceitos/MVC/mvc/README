@@ -1,0 +1,25 @@
+# MVC
+
+Model
+View
+Controler
+
+# Tech
+Java8
+Mavem
+
+# Validar
+
+Use a stack de teste para testar e validar o mvc
+
+# Usar o sistema
+
+`mvn clean install`
+
+`cd target`
+
+`java -jar mvc-0.0.1-SNAPSHOT.jar`
+
+<p>or</p>
+
+mvn clean install spring-boot:run`
