@@ -26,7 +26,4 @@ public class Produto {
 		return valorUnitario;
 	}
 	
-	public BigDecimal getValorTotal() {
-		return this.valorUnitario.multiply(BigDecimal.valueOf(this.quantidade));
-	}
 }

@@ -8,7 +8,7 @@ public class CalculoPrecoComum implements CalculoPreco {
 
 	@Override
 	public BigDecimal valorFinal(Produto produto) {
-		return produto.getValorTotal();
+		return produto.getValorUnitario().multiply(BigDecimal.valueOf(produto.getQuantidade()));
 	}
 	
 }

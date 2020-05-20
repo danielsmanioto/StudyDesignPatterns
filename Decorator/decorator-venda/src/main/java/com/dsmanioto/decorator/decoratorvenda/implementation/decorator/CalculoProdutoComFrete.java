@@ -20,11 +20,11 @@ public class CalculoProdutoComFrete implements  CalculoPreco {
 	}
 	
 	private BigDecimal calculaFrete(Produto produto) {
-		if (produto.getQuantidade() > 3) {
-			return new BigDecimal("11.00");
+		if (produto.getQuantidade() > 10) {
+			return new BigDecimal("0.00");
 		}
 		
-		return new BigDecimal("0.00");
+		return new BigDecimal("1.00");
 	}
 	
 }
