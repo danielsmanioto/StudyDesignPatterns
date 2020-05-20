@@ -53,6 +53,5 @@ class DecoratorVendaApplicationTests {
 		
 		Assert.assertEquals(new BigDecimal("10.94"), valorFinal);
 	}
-	
 
 }
