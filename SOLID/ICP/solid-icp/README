@@ -1,0 +1,11 @@
+# ISP — Interface Segregation Principle:
+
+Muitas interfaces especificas é melhor do que uma unica interface
+
+# Using
+Use a stack de
+
+#Tecnologias
+Java11
+Maven
+Lombok

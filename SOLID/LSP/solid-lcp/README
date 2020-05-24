@@ -1,0 +1,41 @@
+# LSP— Liskov Substitution Principle
+
+If for each object o1 of type S there is an object o2 of type T such that for all programs P defined in terms of T,
+the behaviour of P is unchanged when o1 is substituted for o2 then S is a subtype of T
+
+
+
+Esse princípio foi definido por Barbara Liskov,
+e a sua ideia é que objetos devem poder ser substituídos por instâncias de seus subtipos
+sem que a funcionalidade seja alterada do ponto de vista do cliente.
+
+Ganhos ao utilizar o princípio:
+-Validação de que suas abstrações estão corretas
+-Código facilmente reutilizável
+-Um código mais fácil de se ler
+-Hierarquias de classes mais fáceis de se entender
+
+Tipos derivados devem ser completamente substituíveis por seus tipos de base.
+
+# This project
+Java11
+Maven3
+
+#Using
+
+Use the stack test for see example with LCP
+
+# References
+
+https://java-design-patterns.com/principles/#yagni
+http://www.blackwasp.co.uk/lsp.aspx
+https://en.wikipedia.org/wiki/Behavioral_subtyping
+https://en.wikipedia.org/wiki/Talk%3ALiskov_substitution_principle
+
+https://adrianolisboa.com/ood-solid-para-humanos-com-exemplos/
+
+https://www.youtube.com/watch?v=gnKx1RW_2Rk
+https://www.youtube.com/watch?v=ObHQHszbIcE
+https://www.youtube.com/watch?v=Orhu0x5aplI
+
+https://dzone.com/articles/java-collections?utm%5C_medium=feed&utm%5C_source=feedpress.me&utm%5C_campaign=Feed%5C:%20dzone%5C%2Fjava
