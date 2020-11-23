@@ -1,0 +1,6 @@
+# When To Use
+1. You need to add responsibilities to individual objects dynamically and transparently, that is, without affecting other objects.
+2. You need to add responsibilities that can be withdrawn at any moment.
+
+# References
+1. https://medium.com/better-programming/design-patterns-null-object-5ee839e37892
